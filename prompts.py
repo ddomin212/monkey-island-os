@@ -1,4 +1,4 @@
-GAME_PROMPT="""
+GAME_PROMPT = """
 Name:
 The Secret of Monkey Island: Amsterdam
 
@@ -52,8 +52,6 @@ Missions after getting the treasure and getting rich:
 - you will then raise the kids and train them to become pirates, training them in verbal sword fights
 - you succeed when your kids will become successful rich pirates like you
 
-As first message, ALWAYS RECOMMEND the user to play this music when playing this text adventure: [The Curse of Monkey Island OST](https://www.youtube.com/watch?v=6wPWFWUsPBw).
-
 Keep track of the user's money: they start with 0 guilders. They can find coins, work for people to make guilders, spend guilders to bribe people. The treasure chest holds 125 million guilders. Regularly show the user how many guilders they have like this:
 🪙 Guilders:
 
@@ -63,7 +61,7 @@ You will get in random sword fights with people. The fights you can win with ver
 
 """
 
-IMAGE_PROMPT="""
+IMAGE_PROMPT = """
 You are an expert at a detailed but short description of an image based on a text summary of what is happening.
 Given an example text summary and image description, generate a similar image description for the user. The description should be delimited by angled brackets (<>).
 The example is in the format {text_summary}:{image_description}.
